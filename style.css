@@ -1,0 +1,161 @@
+/* GENERAL SITEWIDE STYLINGS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+
+body {
+    max-width: 100vw;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+}
+
+.container {
+    padding: 96px 32px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.small__row {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* LANDING STYLINGS */
+
+.landing__img {
+    background-image: url(Images/hobbitHole1.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+}
+
+.landing__people {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+.bilbo__container {
+    left: 30%;
+    top: 40%; 
+    position: absolute;    
+}
+
+.bilbo--img {
+    background-image: url(Images/bilbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 250px;
+    width: 250px;  
+    position: relative;
+    bottom: -20px;
+    opacity: 0; 
+}
+
+.gollum__container {
+    left: 72%;
+    top: 7%;
+    position: absolute;
+}
+
+.gollum--img {
+    background-image: url(Images/gollum.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.gandalf__container {
+    left: 62%;
+    top: 45%;
+    position: absolute;
+}
+
+.gandalf--img {
+    background-image: url(Images/gandalf.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.schatz__container {
+    left: 65%;
+    top: -2%;
+    position: absolute;
+}
+
+.schatz--text {
+    background-image: url(Images/text--schatz.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:200px;
+    height:200px;
+    position: relative;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.willkommen__container {
+    left: 36.5%;
+    top: 30%;
+    position: absolute;
+}
+
+.willkommen--text {
+    background-image: url(Images/text--willkommen.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:200px;
+    height:200px;
+    position: relative;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.main.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+    transition-delay: 1s;
+}
+
+
