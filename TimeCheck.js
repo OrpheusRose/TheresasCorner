@@ -17,7 +17,7 @@ if (time >= 5){
         evening.style.display = 'none';
         night.style.display = 'none';
     }
-    else if(time > 18 && time < 21){
+    else if(time >= 18 && time < 21){
         morning.style.display = 'none';
         day.style.display = 'none';
         evening.style.display = 'block';
